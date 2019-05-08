@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "./start_django.py" ]
+CMD [ "python3", "./start_django.py" ]
