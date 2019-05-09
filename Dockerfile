@@ -9,7 +9,7 @@ COPY . .
 
 # RUN mkdir django_discovery
 
-RUN  django-admin startproject django_discovery
-WORKDIR /usr/src/app/django_discovery
+# RUN  django-admin startproject django_discovery
+# WORKDIR /usr/src/app/django_discovery
 
-CMD [ "python", "/usr/src/app/start_django.py" ]
+# CMD [ "python", "/usr/src/app/start_django.py" ]
