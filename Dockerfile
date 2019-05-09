@@ -8,8 +8,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 RUN mkdir django_discovery
-WORKDIR /django_discovery
+WORKDIR /usr/src/app/django_discovery
 
 RUN  django-admin startproject mysite
 
-CMD [ "python3", "./start_django.py" ]
+CMD [ "python", "./start_django.py" ]
